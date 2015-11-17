@@ -6,7 +6,11 @@ Keyword=ST7Workspace-V0.7
 [Project0]
 Filename=periodictimer\periodictimer.stp
 Dependencies=
+
+[Project1]
+Filename=batterycutoff\batterycutoff.stp
+Dependencies=
 [Options]
-ActiveProject=periodictimer
+ActiveProject=batterycutoff
 ActiveConfig=Debug
 AddSortedElements=1
