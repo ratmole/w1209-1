@@ -44,7 +44,7 @@ ptn_Child33=Bar-32
 
 [WorkState_v1_2.DockState.Bar-0]
 BarID=59419
-Bars=19
+Bars=20
 Bar#0=0
 Bar#1=59647
 Bar#2=0
@@ -64,6 +64,7 @@ Bar#15=124938
 Bar#16=0
 Bar#17=32768
 Bar#18=0
+Bar#19=0
 Style=0
 ExStyle=0
 PrevFloating=False
@@ -331,7 +332,7 @@ Docking=True
 MRUDockID=59419
 MRUDockLeftPos=-1
 MRUDockTopPos=-1
-MRUDockRightPos=924
+MRUDockRightPos=1919
 MRUDockBottomPos=28
 MRUFloatStyle=8196
 MRUFloatXPos=-1
@@ -346,7 +347,7 @@ LastAlignedDocking=0
 PctWidth=1000000
 MRUFloatCX=429
 MRUFloatCY=27
-MRUHorzDockCX=925
+MRUHorzDockCX=1920
 MRUHorzDockCY=29
 MRUVertDockCX=72
 MRUVertDockCY=527
@@ -729,7 +730,7 @@ MRUDockID=0
 MRUDockLeftPos=1
 MRUDockTopPos=-2
 MRUDockRightPos=151
-MRUDockBottomPos=367
+MRUDockBottomPos=752
 MRUFloatStyle=4
 MRUFloatXPos=-1
 MRUFloatYPos=0
@@ -746,7 +747,7 @@ MRUFloatCY=180
 MRUHorzDockCX=300
 MRUHorzDockCY=180
 MRUVertDockCX=150
-MRUVertDockCY=369
+MRUVertDockCY=754
 MRUDockingState=0
 DockingStyle=61440
 TypeID=0
@@ -762,7 +763,7 @@ Docking=True
 MRUDockID=0
 MRUDockLeftPos=1
 MRUDockTopPos=5
-MRUDockRightPos=925
+MRUDockRightPos=1920
 MRUDockBottomPos=155
 MRUFloatStyle=4
 MRUFloatXPos=-1
@@ -777,7 +778,7 @@ LastAlignedDocking=0
 PctWidth=1000000
 MRUFloatCX=300
 MRUFloatCY=180
-MRUHorzDockCX=924
+MRUHorzDockCX=1919
 MRUHorzDockCY=150
 MRUVertDockCX=300
 MRUVertDockCY=180
@@ -1241,7 +1242,43 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 
 [WorkState_v1_2.Frames.MainFrame]
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOOCAAAAABFBAAAAALJGAAAAAAPDAAAAA
-Title=ST Visual Develop - W1209.stw
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOOCAAAAABFBAAAAALJGAAAAAAPDAAAAA
+Title=ST Visual Develop - W1209.stw - [main.c]
 
 [WorkState_v1_2.Frames.ChildFrames]
+ptn_Child1=Document-0
+ptn_Child2=Document-1
+ptn_Child3=Document-2
+
+[WorkState_v1_2.Frames.ChildFrames.Document-0]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
+DocPathName=w1209.c
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPAAAAAAAAAAAAAAAAOHCAAAAAJNAAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+
+[WorkState_v1_2.Frames.ChildFrames.Document-1]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
+DocPathName=periodictimer\main.c
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPFFBAAAAACLAAAAAADNDAAAAALIBAAAAA
+IsActiveChildFrame=True
+IsFrameVisible=True
+
+[WorkState_v1_2.Frames.ChildFrames.Document-2]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
+DocPathName=w1209.h
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPCOPPPPPPCDAAAAAACDAAAAAAKBGAAAAADBCAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True

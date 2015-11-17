@@ -102,23 +102,23 @@ void Menu_Step(void)
 	case 1:
 	{
 		SetIndicatorMap(0, IND_NONE);
-		SetIndicatorMap(1, IND_P);
+		SetIndicatorMap(1, IND_T);
 		SetIndicatorMap(2, gs_menu_param ? IND_1 : IND_0);
 		break;
 	}
 	case 2:
 	{
 		if(gs_menu_param)
-			SetIndicatorMSec(g_settings.on_mlSec, 0);
+			SetIndicatorMSec(g_settings.on_mlSec, 0, IND_TIME_MIN_SEC);
 		else
-			SetIndicatorMSec(60000L * g_settings.standby_minutes, 0);
+			SetIndicatorMSec(60000L * g_settings.standby_minutes, 0, IND_TIME_MIN_SEC);
 		break;
 	}
 	default:
 	{
 		unsigned long need = (gs_state ? (unsigned long)g_settings.on_mlSec : 60000L * g_settings.standby_minutes);
 		unsigned long count = GetCounter() - gs_last_ticks;
-		SetIndicatorMSec(count > need ? 0L : need - count, 1);
+		SetIndicatorMSec(count > need ? 0L : need - count, 1, IND_TIME_MIN_SEC);
 		break;
 	}
 	}

@@ -174,20 +174,20 @@ void SetIndicatorValue(int index, unsigned char value, int point)
 		return;
 	SetIndicatorMap(index, gs_indicator_digit[value] | (point ? IND_POINT : 0));
 }
-void SetIndicatorMSec(long value, int blinkPoint)
+void SetIndicatorMSec(long value, int blinkPoint, ind_time_type_t type)
 {
 	int ival;
-	if(value < 1000)
+	if((type & IND_TIME_MS) && (value < 1000))
 	{
 		SetIndicatorInt(value, 0);
 		return;
 	}
-	if(value < 10000)
+	if((type & IND_TIME_SEC) && (value < 10000))
 	{
 		SetIndicatorInt(value/10, 2);
 		return;
 	}
-	if(value < 600000L)
+	if((type & IND_TIME_MIN) && (value < 600000L))
 	{
 		value /= 1000;
 		ival = (value / 60)*100 + (value % 60);

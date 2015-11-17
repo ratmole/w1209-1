@@ -41,6 +41,8 @@ typedef enum {
 	IND_8 = IND_ZERRO | IND_MIDDLE, //8
 	IND_9 = IND_TOP | IND_TOP_LEFT | IND_MIDDLE | IND_RIGHT | IND_BOTTOM, // 9
 	IND_L = IND_LEFT | IND_BOTTOM, // L
+	IND_T = IND_LEFT | IND_TOP, // T
+	IND_U = IND_LEFT | IND_TOP | IND_RIGHT, // U
 	IND_O = IND_ZERRO, //0
 	IND_H = IND_LEFT | IND_MIDDLE | IND_RIGHT, // H
 	IND_P = IND_LEFT | IND_MIDDLE | IND_TOP | IND_TOP_RIGHT, // P
@@ -51,8 +53,17 @@ typedef enum {
 extern void SetIndicatorMap(int index, indicator_t map);
 extern void SetIndicatorValue(int index, unsigned char value, int point);
 extern void SetIndicatorInt(int value, int point);
-extern void SetIndicatorMSec(long value, int blinkPoint);
 extern void SetIndicatorFloat(float value);
+
+typedef enum {
+	IND_TIME_MS = 1,
+	IND_TIME_SEC = 2,
+	IND_TIME_MIN = 8,
+	IND_TIME_ALL = IND_TIME_MIN | IND_TIME_SEC | IND_TIME_MS,
+	IND_TIME_MIN_SEC = IND_TIME_MIN | IND_TIME_SEC
+} ind_time_type_t;
+
+extern void SetIndicatorMSec(long value, int blinkPoint, ind_time_type_t type);
 
 
 typedef enum {
