@@ -102,6 +102,12 @@ void Sleep(unsigned long mSec)
 	while((GetCounter() - started) < mSec);
 }
 
+///-------------------------------------------------------- ADC ---------------------------------------
+short AdcGetValue(void)
+{
+	
+}
+
 ///------------------------------------------------------ Indicator ------------------------------------
 static volatile unsigned long gs_indicator_timer = 0;
 static keys_t gs_keys;

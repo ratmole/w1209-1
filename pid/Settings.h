@@ -3,8 +3,8 @@
 typedef struct {
 	int check1;
 	int size;
-	int calibr_0;
-	int calibr_100;
+	unsigned short calibr_0;
+	unsigned short calibr_100;
 	float pid_level;
 	unsigned int pid_default_percent;
 	unsigned int pid_mlsec;

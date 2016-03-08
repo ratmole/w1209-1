@@ -11,6 +11,8 @@ extern void Sleep(unsigned long mSec);
 extern void W1209Init(void);
 extern void W1209Step(void);
 
+extern short AdcGetValue(void);
+
 typedef enum {
 	IND_NONE	= 0,
 	IND_POINT	= (1 << 5),
@@ -40,9 +42,14 @@ typedef enum {
 	IND_7 = IND_TOP | IND_RIGHT, // 7
 	IND_8 = IND_ZERRO | IND_MIDDLE, //8
 	IND_9 = IND_TOP | IND_TOP_LEFT | IND_MIDDLE | IND_RIGHT | IND_BOTTOM, // 9
+	IND__ = IND_BOTTOM,
+	IND_I = IND_RIGHT, // I
 	IND_L = IND_LEFT | IND_BOTTOM, // L
 	IND_T = IND_LEFT | IND_TOP, // T
-	IND_U = IND_LEFT | IND_TOP | IND_RIGHT, // U
+	IND_U = IND_LEFT | IND_BOTTOM | IND_RIGHT, // U
+	IND_V = IND_U, // V
+	IND_E = IND_LEFT | IND_BOTTOM | IND_MIDDLE | IND_TOP, // E
+	IND_C = IND_LEFT | IND_TOP | IND_BOTTOM, // C
 	IND_O = IND_ZERRO, //0
 	IND_H = IND_LEFT | IND_MIDDLE | IND_RIGHT, // H
 	IND_P = IND_LEFT | IND_MIDDLE | IND_TOP | IND_TOP_RIGHT, // P

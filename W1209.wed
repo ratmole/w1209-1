@@ -330,10 +330,10 @@ BarID=59647
 MRUWidth=412
 Docking=True
 MRUDockID=59419
-MRUDockLeftPos=8
-MRUDockTopPos=31
-MRUDockRightPos=1374
-MRUDockBottomPos=60
+MRUDockLeftPos=-1
+MRUDockTopPos=-1
+MRUDockRightPos=1365
+MRUDockBottomPos=28
 MRUFloatStyle=8196
 MRUFloatXPos=-1
 MRUFloatYPos=0
@@ -761,10 +761,10 @@ XPos=1
 YPos=5
 Docking=True
 MRUDockID=0
-MRUDockLeftPos=8
-MRUDockTopPos=31
-MRUDockRightPos=1373
-MRUDockBottomPos=181
+MRUDockLeftPos=1
+MRUDockTopPos=5
+MRUDockRightPos=1366
+MRUDockBottomPos=155
 MRUFloatStyle=4
 MRUFloatXPos=-1
 MRUFloatYPos=0
@@ -1243,22 +1243,25 @@ ptn_Child2=ChildFrames
 
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPBKAAAAAAOHAAAAAAOEEAAAAANBDAAAAA
-Title=ST Visual Develop - W1209.stw - [main.c *]
+Title=ST Visual Develop - W1209.stw - [main.c]
 
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
 ptn_Child3=Document-2
+ptn_Child4=Document-3
+ptn_Child5=Document-4
+ptn_Child6=Document-5
 
 [WorkState_v1_2.Frames.ChildFrames.Document-0]
 ptn_Child1=ViewFrame-0
 
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
-DocPathName=pid\main.c
+DocPathName=w1209.h
 DocumentString=
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPIGAAAAAAIGAAAAAANODAAAAAFIBAAAAA
-IsActiveChildFrame=True
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPOEAAAAAAOEAAAAAADNDAAAAALGBAAAAA
+IsActiveChildFrame=False
 IsFrameVisible=True
 
 [WorkState_v1_2.Frames.ChildFrames.Document-1]
@@ -1268,7 +1271,7 @@ ptn_Child1=ViewFrame-0
 DocPathName=pid\settings.h
 DocumentString=
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPCIAAAAAACIAAAAAABPDAAAAAJIBAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPIGAAAAAAIGAAAAAAHNDAAAAAPGBAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 
@@ -1276,7 +1279,40 @@ IsFrameVisible=True
 ptn_Child1=ViewFrame-0
 
 [WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
-DocPathName=w1209.h
+DocPathName=pid\main.c
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPCIAAAAAACIAAAAAABPDAAAAAJIBAAAAA
+IsActiveChildFrame=True
+IsFrameVisible=True
+
+[WorkState_v1_2.Frames.ChildFrames.Document-3]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
+DocPathName=w1209.c
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPAAAAAAAAAAAAAAAAPGDAAAAAHABAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+
+[WorkState_v1_2.Frames.ChildFrames.Document-4]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-4.ViewFrame-0]
+DocPathName=..\..\..\program files (x86)\stmicroelectronics\st_toolset\include\stm8s003f3p.h
+DocumentString=
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPKBAAAAAAKBAAAAAAJIDAAAAABCBAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+
+[WorkState_v1_2.Frames.ChildFrames.Document-5]
+ptn_Child1=ViewFrame-0
+
+[WorkState_v1_2.Frames.ChildFrames.Document-5.ViewFrame-0]
+DocPathName=..\..\..\program files (x86)\stmicroelectronics\st_toolset\include\stm8s103f.h
 DocumentString=
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPIPPPPPPPBOPPPPPPEDAAAAAAEDAAAAAADKDAAAAALDBAAAAA
